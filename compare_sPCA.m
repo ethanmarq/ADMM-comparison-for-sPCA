@@ -3,6 +3,8 @@
 % Manifold: Stiefel manifold St(n, p)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clc; close all; clear
+addpath misc
+addpath SSN_subproblem
 %% Problem Generating
 n_list = 400; p_list = 50;
 mu_list = 0.01;
